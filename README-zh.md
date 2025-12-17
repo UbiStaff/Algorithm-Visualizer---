@@ -18,7 +18,7 @@
   
   <!-- 算法可视化界面效果展示 -->
   <div style="margin: 30px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-    <img src="frontend/public/screenshot.svg" alt="算法可视化界面" width="800" style="display: block;">
+    <img src="frontend/public/screenshot.png" alt="算法可视化界面" width="800" style="display: block;">
   </div>
   
 </div>
@@ -29,7 +29,7 @@
 <div align="center">
   <!-- 算法可视化界面效果展示 -->
   <div style="margin: 30px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-    <img src="frontend/public/screenshot.svg" alt="算法可视化界面" width="800" style="display: block;">
+    <img src="frontend/public/screenshot.png" alt="算法可视化界面" width="800" style="display: block;">
   </div>
 </div>
 
