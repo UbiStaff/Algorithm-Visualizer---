@@ -26,13 +26,6 @@
 <div id="content">
 ## 项目概述
 
-<div align="center">
-  <!-- 算法可视化界面效果展示 -->
-  <div style="margin: 30px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-    <img src="frontend/public/screenshot.png" alt="算法可视化界面" width="800" style="display: block;">
-  </div>
-</div>
-
 算法动画演示平台是一个交互式的算法可视化工具，通过生动的动画效果帮助用户理解各种算法的工作原理和执行过程。
 
 ## 功能特性
