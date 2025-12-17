@@ -5,8 +5,8 @@
   <h2>Algorithm Visualizer - 算法动画</h2>
   <p>A beautiful and interactive algorithm visualization platform built with Vue 3 and Spring Boot.</p>
   <div style="margin: 10px 0;">
-    <a href="README.md" onclick="loadContent('README.md')" style="margin: 0 5px; padding: 5px 10px; background: #0366d6; color: white; text-decoration: none; border-radius: 3px;">English</a>
-    <a href="README-zh.md" onclick="loadContent('README-zh.md')" style="margin: 0 5px; padding: 5px 10px; background: #f6f8fa; color: #24292e; text-decoration: none; border-radius: 3px; border: 1px solid #d1d5da;">中文</a>
+    <a href="README.md" style="margin: 0 5px; padding: 5px 10px; background: #0366d6; color: white; text-decoration: none; border-radius: 3px;">English</a>
+    <a href="README-zh.md" style="margin: 0 5px; padding: 5px 10px; background: #f6f8fa; color: #24292e; text-decoration: none; border-radius: 3px; border: 1px solid #d1d5da;">中文</a>
   </div>
   <div style="margin: 20px 0;">
     <img src="https://img.shields.io/badge/Vue.js-3.x-brightgreen" alt="Vue.js">
@@ -193,23 +193,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Thanks to all contributors and supporters
 
 </div>
-
-<script>
-// Function to load content from another file
-function loadContent(filePath) {
-  fetch(filePath)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.text();
-    })
-    .then(content => {
-      // Replace the current content with the loaded content
-      document.body.innerHTML = content;
-    })
-    .catch(error => {
-      console.error('There was a problem loading the content:', error);
-    });
-}
-</script>
