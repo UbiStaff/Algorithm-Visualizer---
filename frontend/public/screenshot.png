@@ -1,0 +1,101 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <!-- 标题区域 -->
+  <text x="500" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333333">Algorithm Visualizer</text>
+  <text x="500" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">Vue 3 + TypeScript + Vite</text>
+  
+  <!-- 导航按钮 -->
+  <rect x="350" y="140" width="80" height="30" rx="5" fill="#4CAF50" stroke="#388E3C" stroke-width="1"/>
+  <text x="390" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">排序</text>
+  
+  <rect x="450" y="140" width="80" height="30" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="490" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">链表</text>
+  
+  <rect x="550" y="140" width="80" height="30" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="590" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">树</text>
+  
+  <!-- 主容器 -->
+  <rect x="150" y="190" width="700" height="360" rx="10" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- 控制面板 -->
+  <rect x="170" y="210" width="660" height="60" rx="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- 控制按钮 -->
+  <rect x="180" y="220" width="80" height="40" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="220" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">随机数组</text>
+  
+  <rect x="270" y="220" width="80" height="40" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="310" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">生成步骤</text>
+  
+  <rect x="360" y="220" width="60" height="40" rx="5" fill="#4CAF50" stroke="#388E3C" stroke-width="1"/>
+  <text x="390" y="245" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">播放</text>
+  
+  <rect x="430" y="220" width="60" height="40" rx="5" fill="#FF9800" stroke="#F57C00" stroke-width="1"/>
+  <text x="460" y="245" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">暂停</text>
+  
+  <rect x="500" y="220" width="60" height="40" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="530" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">单步</text>
+  
+  <rect x="570" y="220" width="60" height="40" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="600" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">回退</text>
+  
+  <!-- 速度控制 -->
+  <text x="650" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">速度(ms)</text>
+  <rect x="680" y="235" width="80" height="10" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <rect x="730" y="235" width="10" height="10" rx="5" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+  <text x="775" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">200</text>
+  
+  <!-- 算法选择 -->
+  <text x="180" y="305" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">算法</text>
+  
+  <rect x="210" y="290" width="80" height="30" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">冒泡排序</text>
+  
+  <rect x="300" y="290" width="80" height="30" rx="5" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+  <text x="340" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">选择排序</text>
+  
+  <rect x="390" y="290" width="80" height="30" rx="5" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="430" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">插入排序</text>
+  
+  <!-- 信息显示 -->
+  <text x="480" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">交换次数：0</text>
+  <text x="580" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">步骤：16/209</text>
+  
+  <!-- 可视化区域 -->
+  <rect x="170" y="330" width="400" height="200" rx="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- 柱状图 -->
+  <rect x="190" y="500" width="20" height="20" rx="2" fill="#2196F3"/>
+  <rect x="220" y="510" width="20" height="10" rx="2" fill="#2196F3"/>
+  <rect x="250" y="470" width="20" height="50" rx="2" fill="#2196F3"/>
+  <rect x="280" y="420" width="20" height="100" rx="2" fill="#2196F3"/>
+  <rect x="310" y="440" width="20" height="80" rx="2" fill="#2196F3"/>
+  <rect x="340" y="450" width="20" height="70" rx="2" fill="#2196F3"/>
+  <rect x="370" y="430" width="20" height="90" rx="2" fill="#2196F3"/>
+  <rect x="400" y="480" width="20" height="40" rx="2" fill="#2196F3"/>
+  <rect x="430" y="490" width="20" height="30" rx="2" fill="#2196F3"/>
+  <rect x="460" y="460" width="20" height="60" rx="2" fill="#2196F3"/>
+  <rect x="490" y="430" width="20" height="90" rx="2" fill="#2196F3"/>
+  <rect x="520" y="330" width="20" height="190" rx="2" fill="#FFEB3B"/>
+  <rect x="550" y="470" width="20" height="50" rx="2" fill="#2196F3"/>
+  <rect x="580" y="450" width="20" height="70" rx="2" fill="#2196F3"/>
+  <rect x="610" y="490" width="20" height="30" rx="2" fill="#2196F3"/>
+  <rect x="640" y="480" width="20" height="40" rx="2" fill="#2196F3"/>
+  <rect x="670" y="500" width="20" height="20" rx="2" fill="#2196F3"/>
+  
+  <!-- 代码区域 -->
+  <rect x="590" y="330" width="240" height="200" rx="5" fill="#263238" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- 代码标题 -->
+  <text x="640" y="355" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#eceff1">简化伪代码（选择排序）</text>
+  
+  <!-- 代码内容 -->
+  <text x="605" y="380" font-family="Courier, monospace" font-size="12" fill="#eceff1">对 i 从 0 到 n-2：</text>
+  <text x="605" y="400" font-family="Courier, monospace" font-size="12" fill="#eceff1">  最小下标 = i</text>
+  <text x="605" y="420" font-family="Courier, monospace" font-size="12" fill="#eceff1">  对 j 从 i+1 到 n-1：</text>
+  <text x="605" y="440" font-family="Courier, monospace" font-size="12" fill="#4CAF50">    如果 a[j] < a[最小下标]：</text>
+  <text x="605" y="460" font-family="Courier, monospace" font-size="12" fill="#4CAF50">      最小下标 = j</text>
+  <text x="605" y="480" font-family="Courier, monospace" font-size="12" fill="#eceff1">  交换(a[i], a[最小下标])</text>
+</svg>

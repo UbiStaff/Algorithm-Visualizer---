@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .fg { fill: #e2e8f0; }
+      .accent { fill: #22c55e; }
+    </style>
+  </defs>
+  <!-- Rounded square background -->
+  <rect class="bg" x="4" y="4" width="56" height="56" rx="12" />
+  <!-- Tribute letters: VB -->
+  <text x="32" y="40" text-anchor="middle" class="fg"
+        font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-size="30" font-weight="700">VB</text>
+  <!-- Small accent dot to echo highlight color -->
+  <circle class="accent" cx="52" cy="14" r="3" />
+</svg>

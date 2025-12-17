@@ -1,0 +1,68 @@
+# Build outputs
+backend/target/
+frontend/dist/
+frontend/dist-ssr/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+backend.log
+frontend.log
+
+# Process IDs
+*.pid
+backend.pid
+frontend.pid
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+backend.zip
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+
+# Private documents - exclude potentially sensitive files
+报告模版测试/
+*.doc
+*.docx
+*.pdf
+
+# Exclude specific sensitive text files but keep project essential ones
+docs/template-详细设计报告.txt
+docs/算法设计与分析-详细设计报告-算法动画演示.txt
+
+# Exclude duplicate files that already exist in root directory
+docs/CHANGELOG.md
+docs/README.md
+
+# Node.js dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
